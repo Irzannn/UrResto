@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free restaurants catalogue for you">
+  <meta name="theme-color" content="#2f8f9d"/>
+
+  <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+  <link rel="manifest" href="./app.webmanifest">
+  <link rel="icon" href="./favicon.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+
+  <title>Ur Resto</title>
+</head>
+
+<body>
+  <skip-content></skip-content>
+  <div class="nav_menu">
+    <div class="nav-icon" id="menu">
+      <button id="hamburgerButton" aria-label="navigation-menu">☰</button>
+    </div>
+    <div class="logo-mob">
+      <h1>Ur Resto</h1>
+    </div>
+    <nav id="drawer" class="nav-mob">
+      <ul class="nav__list-mob">
+        <li class="nav__item-mob"><a href="/">Home</a></li>
+        <li class="nav__item-mob"><a href="#/favorite">Favorite</a></li>
+        <li class="nav__item-mob"><a target="_blank" href="https://github.com/Irzannn">About Us</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <header>
+    <div class="hero">
+      <picture>
+        <source media="(max-width: 600px)" set="/images/heros/hero-image_4-small.jpg">
+        <img src='/images/heros/hero-image_4-large.jpg' 
+              alt="Large Image For Restaurant">
+      </picture>
+      <div class="hero__inner">
+        <h1 class="hero__title">Ur Resto</h1>
+        <p class="hero__tagline">Find the best restaurant you want in this websites.</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="content">
+      <div class="latest">
+        <h1>Explore Restaurants</h1>
+        <div class="lists" id="contents"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer-bar></footer-bar>
+</body>
+</html>
