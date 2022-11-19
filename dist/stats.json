@@ -1,8 +1,8 @@
 {
-  "hash": "16c8b774e969deef9ccd",
+  "hash": "6eb015d4acf2a247316a",
   "version": "5.75.0",
-  "time": 10643,
-  "builtAt": 1668838146090,
+  "time": 11373,
+  "builtAt": 1668838758157,
   "publicPath": "auto",
   "outputPath": "C:\\aDicoding\\restaurant-apps3\\dist",
   "assetsByChunkName": {
@@ -239,9 +239,9 @@
     {
       "type": "asset",
       "name": "app~d1658f4b.bundle.js",
-      "size": 24930,
-      "emitted": false,
-      "comparedForEmit": true,
+      "size": 25076,
+      "emitted": true,
+      "comparedForEmit": false,
       "cached": false,
       "info": {
         "javascriptModule": false,
@@ -249,7 +249,7 @@
         "related": {
           "sourceMap": "app~d1658f4b.bundle.js.map"
         },
-        "size": 24930
+        "size": 25076
       },
       "chunkNames": [
         "app~d1658f4b"
@@ -262,13 +262,13 @@
         {
           "type": "sourceMap",
           "name": "app~d1658f4b.bundle.js.map",
-          "size": 36824,
-          "emitted": false,
-          "comparedForEmit": true,
+          "size": 36978,
+          "emitted": true,
+          "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 36824
+            "size": 36978
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -1013,9 +1013,9 @@
                   "id": 705
                 },
                 {
-                  "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\detail.js",
-                  "name": "./src/scripts/views/pages/detail.js",
-                  "id": 178
+                  "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\favorite.js",
+                  "name": "./src/scripts/views/pages/favorite.js",
+                  "id": 523
                 },
                 {
                   "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\data\\favoriteRestaurant-idb.js",
@@ -1087,9 +1087,9 @@
                   "id": 705
                 },
                 {
-                  "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\detail.js",
-                  "name": "./src/scripts/views/pages/detail.js",
-                  "id": 178
+                  "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\favorite.js",
+                  "name": "./src/scripts/views/pages/favorite.js",
+                  "id": 523
                 },
                 {
                   "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\data\\favoriteRestaurant-idb.js",
@@ -2497,8 +2497,8 @@
           "optional": false,
           "orphan": false,
           "dependent": false,
-          "issuer": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\detail.js",
-          "issuerName": "./src/scripts/views/pages/detail.js",
+          "issuer": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\favorite.js",
+          "issuerName": "./src/scripts/views/pages/favorite.js",
           "issuerPath": [
             {
               "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\index.js",
@@ -2516,16 +2516,16 @@
               "id": 705
             },
             {
-              "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\detail.js",
-              "name": "./src/scripts/views/pages/detail.js",
-              "id": 178
+              "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\favorite.js",
+              "name": "./src/scripts/views/pages/favorite.js",
+              "id": 523
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 838,
-          "issuerId": 178,
+          "issuerId": 523,
           "chunks": [
             135
           ],
@@ -3809,8 +3809,8 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\home.js",
-          "issuerName": "./src/scripts/views/pages/home.js",
+          "issuer": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\favorite.js",
+          "issuerName": "./src/scripts/views/pages/favorite.js",
           "issuerPath": [
             {
               "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\index.js",
@@ -3828,16 +3828,16 @@
               "id": 705
             },
             {
-              "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\home.js",
-              "name": "./src/scripts/views/pages/home.js",
-              "id": 750
+              "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\favorite.js",
+              "name": "./src/scripts/views/pages/favorite.js",
+              "id": 523
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 510,
-          "issuerId": 750,
+          "issuerId": 523,
           "chunks": [
             268
           ],
@@ -4383,9 +4383,9 @@
               "id": 705
             },
             {
-              "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\home.js",
-              "name": "./src/scripts/views/pages/home.js",
-              "id": 750
+              "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\favorite.js",
+              "name": "./src/scripts/views/pages/favorite.js",
+              "id": 523
             },
             {
               "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\templates\\template-creator.js",
@@ -5782,9 +5782,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 29305,
+      "size": 29451,
       "sizes": {
-        "javascript": 26153,
+        "javascript": 26299,
         "runtime": 3152
       },
       "names": [
@@ -5800,7 +5800,7 @@
       "auxiliaryFiles": [
         "app~d1658f4b.bundle.js.map"
       ],
-      "hash": "f1e5d123fda00cc7a829",
+      "hash": "fdcd9778cce09a3ea2ef",
       "childrenByOrder": {},
       "id": 954,
       "siblings": [
@@ -5816,9 +5816,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 18835,
+          "size": 18981,
           "sizes": {
-            "javascript": 18835
+            "javascript": 18981
           },
           "built": true,
           "codeGenerated": true,
@@ -8920,9 +8920,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 18835,
+      "size": 18981,
       "sizes": {
-        "javascript": 18835
+        "javascript": 18981
       },
       "built": true,
       "codeGenerated": true,
@@ -10894,8 +10894,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\home.js",
-      "issuerName": "./src/scripts/views/pages/home.js",
+      "issuer": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\favorite.js",
+      "issuerName": "./src/scripts/views/pages/favorite.js",
       "issuerPath": [
         {
           "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\index.js",
@@ -10913,16 +10913,16 @@
           "id": 705
         },
         {
-          "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\home.js",
-          "name": "./src/scripts/views/pages/home.js",
-          "id": 750
+          "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\favorite.js",
+          "name": "./src/scripts/views/pages/favorite.js",
+          "id": 523
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": 510,
-      "issuerId": 750,
+      "issuerId": 523,
       "chunks": [
         268
       ],
@@ -11170,8 +11170,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\detail.js",
-      "issuerName": "./src/scripts/views/pages/detail.js",
+      "issuer": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\favorite.js",
+      "issuerName": "./src/scripts/views/pages/favorite.js",
       "issuerPath": [
         {
           "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\index.js",
@@ -11189,16 +11189,16 @@
           "id": 705
         },
         {
-          "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\detail.js",
-          "name": "./src/scripts/views/pages/detail.js",
-          "id": 178
+          "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\favorite.js",
+          "name": "./src/scripts/views/pages/favorite.js",
+          "id": 523
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": 838,
-      "issuerId": 178,
+      "issuerId": 523,
       "chunks": [
         135
       ],
@@ -11778,9 +11778,9 @@
           "id": 705
         },
         {
-          "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\home.js",
-          "name": "./src/scripts/views/pages/home.js",
-          "id": 750
+          "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\favorite.js",
+          "name": "./src/scripts/views/pages/favorite.js",
+          "id": 523
         },
         {
           "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\templates\\template-creator.js",
@@ -11952,9 +11952,9 @@
               "id": 705
             },
             {
-              "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\detail.js",
-              "name": "./src/scripts/views/pages/detail.js",
-              "id": 178
+              "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\favorite.js",
+              "name": "./src/scripts/views/pages/favorite.js",
+              "id": 523
             },
             {
               "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\data\\favoriteRestaurant-idb.js",
@@ -12025,9 +12025,9 @@
               "id": 705
             },
             {
-              "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\detail.js",
-              "name": "./src/scripts/views/pages/detail.js",
-              "id": 178
+              "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\favorite.js",
+              "name": "./src/scripts/views/pages/favorite.js",
+              "id": 523
             },
             {
               "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\data\\favoriteRestaurant-idb.js",
@@ -12333,9 +12333,9 @@
           "id": 705
         },
         {
-          "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\detail.js",
-          "name": "./src/scripts/views/pages/detail.js",
-          "id": 178
+          "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\views\\pages\\favorite.js",
+          "name": "./src/scripts/views/pages/favorite.js",
+          "id": 523
         },
         {
           "identifier": "C:\\aDicoding\\restaurant-apps3\\node_modules\\babel-loader\\lib\\index.js??ruleSet[1].rules[1].use[0]!C:\\aDicoding\\restaurant-apps3\\src\\scripts\\data\\favoriteRestaurant-idb.js",
@@ -12739,11 +12739,11 @@
         },
         {
           "name": "app~d1658f4b.bundle.js",
-          "size": 24930
+          "size": 25076
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 143001,
+      "assetsSize": 143147,
       "auxiliaryAssets": [
         {
           "name": "30.bundle.js.map",
@@ -12759,7 +12759,7 @@
         },
         {
           "name": "app~d1658f4b.bundle.js.map",
-          "size": 36824
+          "size": 36978
         },
         {
           "name": "app~e4317507.bundle.js.map",
@@ -12767,7 +12767,7 @@
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 187592,
+      "auxiliaryAssetsSize": 187746,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -12827,11 +12827,11 @@
         },
         {
           "name": "app~d1658f4b.bundle.js",
-          "size": 24930
+          "size": 25076
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 143001,
+      "assetsSize": 143147,
       "auxiliaryAssets": [
         {
           "name": "30.bundle.js.map",
@@ -12847,7 +12847,7 @@
         },
         {
           "name": "app~d1658f4b.bundle.js.map",
-          "size": 36824
+          "size": 36978
         },
         {
           "name": "app~e4317507.bundle.js.map",
@@ -12855,7 +12855,7 @@
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 187592,
+      "auxiliaryAssetsSize": 187746,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -12895,8 +12895,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "e2c942f881eed1013969",
       "version": "5.75.0",
-      "time": 191,
-      "builtAt": 1668838135700,
+      "time": 200,
+      "builtAt": 1668838747051,
       "publicPath": "",
       "outputPath": "C:\\aDicoding\\restaurant-apps3\\dist",
       "assetsByChunkName": {},
