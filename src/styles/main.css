@@ -172,6 +172,11 @@ main {
 	position: relative;
 }
 
+.list__item a {
+	text-decoration: none;
+	color: inherit
+}
+
 .list__item-thumb {
   width: 100%;
   height: 200px;
@@ -191,11 +196,6 @@ main {
   margin-top: 10px;
 }
 
-.list__item-title a {
-  padding: 10px 0 10px 0;
-	text-decoration: none;
-	color: inherit
-}
 
 .list__item-title:hover {
 	opacity: 0.5
