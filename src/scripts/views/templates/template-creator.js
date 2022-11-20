@@ -4,13 +4,15 @@ import CONFIG from '../../globals/config';
 
 const createRestaurantListTemplate = (restaurant) => `
   <article class="list__item">
+  <a href="#/detail/${restaurant.id}">
     <img class="lazyload list__item-thumb" data-src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" alt="${restaurant.name}" title="${restaurant.name}">
     <div class="list__item-city">${restaurant.city}</div>
     <div class="list__item-content">
       <p class="list__item-rating">Rating : <span>${restaurant.rating}</span></p>
-      <h2 class="list__item-title"><a href="#/detail/${restaurant.id}">${restaurant.name}</a></h2>
+      <h2 class="list__item-title">${restaurant.name}</h2>
       <p class="list__item-desc">${restaurant.description.slice(0, 120)}...</p>
     </div>
+  </a>
   </article>
 `;
 
